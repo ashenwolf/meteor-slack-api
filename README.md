@@ -4,11 +4,11 @@ A Meteor wrapper for the Slack API
 
 # Install
 
-Add `khamoud:slack-api` to your applications `.meteor/packages` file
+Add `graywolf:slack-api` to your applications `.meteor/packages` file
 
 Alternatively:
 ```
-meteor add khamoud:slack-api
+meteor add graywolf:slack-api
 ```
 # How to use
 
@@ -146,6 +146,7 @@ Each `callback` function receives one or two arguments: `error` and `response` (
 * [SlackAPI.users.list(token, callback)](https://api.slack.com/methods/users.list)
 * [SlackAPI.users.setActive(token, callback)](https://api.slack.com/methods/users.setActive)
 * [SlackAPI.users.setPresence(token, presence, callback)](https://api.slack.com/methods/users.setPresence)
+* [SlackAPI.users.lookupByEmail(token, email, callback)](https://api.slack.com/methods/users.lookupByEmail)
 
 
 ## Testing

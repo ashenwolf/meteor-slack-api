@@ -1,6 +1,6 @@
 Package.describe({
-  name: 'khamoud:slack-api',
-  version: '0.0.2',
+  name: 'graywolf:slack-api',
+  version: '0.0.3',
   // Brief, one-line summary of the package.
   summary: 'Slack API written for meteor',
   // URL to the Git repository containing the source code for this package.
@@ -19,6 +19,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('khamoud:slack-api');
+  api.use('graywolf:slack-api');
   api.addFiles('slack-api-tests.js', ['server']);
 });
